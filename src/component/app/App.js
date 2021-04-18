@@ -1,5 +1,4 @@
 import './App.css';
-import Experiment from "../experiment/Experiment";
 import {ClientInvoiceContainer, InvoiceContainer} from "../index";
 
 function App(props) {
@@ -7,7 +6,6 @@ function App(props) {
     <div className="App">
       <InvoiceContainer/>
       <ClientInvoiceContainer/>
-      <Experiment/>
     </div>
   );
 };

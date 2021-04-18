@@ -1,11 +1,9 @@
 import React from 'react';
 import html2canvas from "html2canvas";
-import ReactDOMServer from 'react-dom/server'
 import jsPDF from "jspdf";
 
 const Menu = () => {
 	const downLoadPDF = () => {
-		console.log('pdf downloaded')
 		const pdfContent = document.querySelector('.toPDF')
 		if(pdfContent){
 			html2canvas(pdfContent)
@@ -18,9 +16,8 @@ const Menu = () => {
 					pdf.save("download.pdf");
 				})
 		}else{
-			console.log('problem with the pdf data.')
+			console.log('generating pdf failed!')
 		}
-
 	}
 	return (
 		<React.Fragment>

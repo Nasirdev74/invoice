@@ -20,7 +20,6 @@ import InvoiceAction from "./invoice-action/InvoiceAction";
 import InvoiceTable from "./invoice-table/InvoiceTable";
 import InvoiceTableAction from "./invoice-table-action/InvoiceTableAction";
 import InvoiceNote from "./invoice-note/InvoiceNote";
-import InvoiceReport from "./invoice-report/InvoiceReport";
 
 export {
 	App,
@@ -44,6 +43,5 @@ export {
 	InvoiceAction,
 	InvoiceTable,
 	InvoiceTableAction,
-	InvoiceNote,
-	InvoiceReport
+	InvoiceNote
 }

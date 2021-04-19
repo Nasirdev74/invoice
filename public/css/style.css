@@ -138,8 +138,14 @@ p {
 }
 .invoice-actions .btn-edit,
 .invoice-actions-export .btn-payment{
-  opacity: 0.65; 
-  cursor: not-allowed;
+  cursor: pointer;
+}
+.invoice-actions .btn-edit,
+.invoice-actions .btn-view{
+    margin: 0px 4px;
+}
+.btn-download{
+    margin: 0px 8px;
 }
 .invoice-actions {
     padding: 1rem 0;

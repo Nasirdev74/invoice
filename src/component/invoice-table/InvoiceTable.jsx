@@ -18,9 +18,6 @@ const InvoiceTable = () => {
 			}
 		}
 		const id = e.target.id
-		console.log(`Name: ${name}`)
-		console.log(`Value: ${value}`)
-		console.log(`Id: ${id}`)
 		dispatch(productUpdated({id, name, value}))
 	}
 	const productsRow = products.map(product => <InvoiceTableRow

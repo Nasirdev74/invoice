@@ -1,5 +1,6 @@
 import React from 'react';
-import {MainInvoice, InvoiceSidebar, Menu} from "../index";
+import './InvoiceContainer.css'
+import {MainInvoice, InvoiceSidebar} from "../index";
 
 const InvoiceContainer = () => {
 	return (
@@ -7,7 +8,6 @@ const InvoiceContainer = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-9 col-md-12">
-						<Menu/>
 						<div className="invoice-detail-accent"/>
 						<MainInvoice/>
 					</div>
@@ -20,4 +20,4 @@ const InvoiceContainer = () => {
 	);
 };
 
-export default InvoiceContainer;
+export default InvoiceContainer

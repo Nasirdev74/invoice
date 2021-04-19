@@ -107,7 +107,7 @@ const ClientInvoice = () => {
 
 							</tbody>
 						</table>
-						<ProductReportFinal products={products}/>
+						<ProductReportFinal/>
 					</div>
 				</div>
 			</div>

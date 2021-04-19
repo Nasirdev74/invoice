@@ -17,7 +17,7 @@ const Discount = () => {
 				</div>
 			</div>
 			<div className="preview">
-				<h2>Discount</h2>
+				<h2>Currency</h2>
 				<div className="input-with-label-wrapper">
 					<label>Type</label>
 					<select className="form-control custom-select">

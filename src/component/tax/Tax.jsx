@@ -18,7 +18,7 @@ const Tax = () => {
 	return (
 		<React.Fragment>
 			<div className="preview">
-				<h2>Tax</h2>
+				<h2>{label ? label : 'TAX'}</h2>
 				<div className="input-with-label-wrapper">
 					<label>Type</label>
 					<select
@@ -26,7 +26,7 @@ const Tax = () => {
 						onChange={taxInputHandler}
 						name='type'
 						value={type}>
-						<option>On Total</option>
+						<option value='1'>On Total</option>
 						<option value= '2' >2</option>
 						<option value='3' >3</option>
 						<option value='4' >4</option>
@@ -51,6 +51,8 @@ const Tax = () => {
 						onChange={taxInputHandler}
 						className="form-control"
 						id="invoice-title"
+						min='1'
+						max='100'
 						name="rate" />
 				</div>
 				<div className="input-with-label-wrapper checkbox1">
